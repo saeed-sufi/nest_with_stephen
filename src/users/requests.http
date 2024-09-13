@@ -1,5 +1,24 @@
 
+### Create a new user
 POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "asdf@gmail.com",
+  "password": "adfkjl"
+}
+
+### Get a particular user
+GET http://localhost:3000/auth/2
+Content-Type: application/json
+
+{
+  "email": "adf@gmail.com",
+  "password": "adfkjl"
+}
+
+### Get a particular user
+GET http://localhost:3000/auth?email=adf@gmail.com
 Content-Type: application/json
 
 {
