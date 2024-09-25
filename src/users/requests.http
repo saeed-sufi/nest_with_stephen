@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ### Get a particular user
-GET http://localhost:3000/auth/5
+GET http://localhost:3000/auth/3
 Content-Type: application/json
 
 ### Find all users with the given ID
