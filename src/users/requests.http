@@ -5,15 +5,19 @@ Content-Type: application/json
 
 {
   "email": "hamid@gmail.com",
-  "password": "adfkjl"
+  "password": "adfl"
 }
 
 ### Get a particular user
-GET http://localhost:3000/auth/3
+GET http://localhost:3000/auth/6
+Content-Type: application/json
+
+### Find all users  
+GET http://localhost:3000/auth
 Content-Type: application/json
 
 ### Find all users with the given ID
-GET http://localhost:3000/auth?email=adf@gmail.com
+GET http://localhost:3000/auth?email=asdf@gmail.com
 Content-Type: application/json
 
 ### Delete a user given id
