@@ -4,8 +4,24 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "email": "neda@gmail.com",
-  "password": "adfl"
+  "email": "nedak@gmadil.com",
+  "password": "adfl23"
+}
+
+### Sign out the user
+POST http://localhost:3000/auth/signout
+
+
+### Get the currently signed in user
+GET http://localhost:3000/auth/whoami
+
+### Sign in user
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "email": "nedakian1@gmadil.com",
+  "password": "adfl23"
 }
 
 ### Get a particular user
