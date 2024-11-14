@@ -1,0 +1,22 @@
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+  "price": 100000,
+  "model": "Civic",
+  "make": "Honda",
+  "year": 1995,
+  "mileage": 10000,
+  "lng": "0",
+  "lat": "0"
+  
+}
+
+### 
+PATCH http://localhost:3000/reports/1
+Content-Type: application/json
+
+{
+  "approved": false
+}
