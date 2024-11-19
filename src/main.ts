@@ -17,7 +17,3 @@ async function bootstrap() {
 }
 bootstrap();
 
-const acceptsObj = (obj: { foo: string; bar: number; baz: boolean }) => {};
-
-acceptsObj;
- 
